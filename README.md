@@ -1,5 +1,5 @@
 # WooriFISA 미니프로젝트 : 1분의 인기스타
-## 가짜데이터를 1초당 10개씩 이름 좋아요 데이터를 받고 crontab을 사용하여 1분마다 csv 파일 삭제
+#### 😃이름과 😍좋아요 더미데이터를 1초당 10개씩 데이터를 생성 하여 ELK 사용하여 시각화 및 crontab을 사용하여 1분마다 csv 파일 삭제
 
 <br/>
 
@@ -23,9 +23,10 @@
 <br/>
 
 ## :raising_hand: 팀원
-|<img src="" width="80">|<img src="" width="80">|<img src="" width="80">|<img src="https://github.com/cshharry.png" width="80">|
+
+| <img src="https://github.com/yuwankang.png" width="80"> | <img src="https://github.com/recoild.png" width="80"> | <img src="https://github.com/jeonguk0201.png" width="80"> | <img src="https://github.com/cshharry.png" width="80"> |
 |:---:|:---:|:---:|:---:|
-|[강유완]()|[안재형]()|[이정욱]()|[조성현](https://github.com/cshharry)|
+| [강유완](https://github.com/yuwankang) | [안재형](https://github.com/recoild) | [이정욱](https://github.com/jeonguk0201) | [조성현](https://github.com/cshharry) |
 
 <br/>
 
