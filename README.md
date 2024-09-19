@@ -53,6 +53,7 @@ python3 generate_fake_data_periodically.py
 ```
 crontab -e
 ```
+#### fake_data.csv 1분마다 삭제
 ```
 * * * * * rm /home/username/fake_data.csv
 ```        
