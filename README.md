@@ -48,7 +48,11 @@ python3 generate_fake_data_periodically.py
 #### crontab을 사용하여 1분마다 csv 파일 삭제
 ![image](https://github.com/user-attachments/assets/ad4d7a42-fb13-42e5-bbad-aa1a48717d12)
 
-#### crontab 설정
+### crontab 설정
+#### 크론탭 열기
+```
+crontab -e
+```
 ```
 * * * * * rm /home/username/fake_data.csv
 ```        
