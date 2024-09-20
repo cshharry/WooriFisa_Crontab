@@ -57,7 +57,10 @@ crontab -e
 #### fake_data.csv 1분마다 삭제
 ```
 * * * * * rm /home/username/fake_data.csv
-```        
+```
+### 💪Docker-Compose 사용
+![image](https://github.com/user-attachments/assets/547333f5-4a9b-4e60-be19-58766570c176)
+
 ## :bar_chart: 시각화
 <p align="center">
   
@@ -69,7 +72,7 @@ crontab -e
 
 ## :hammer: 트러블슈팅
 ### 1
-- 
+
 
 <br/>
 
