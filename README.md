@@ -30,6 +30,9 @@
 
 <br/>
 
+## 데모
+![demo](images/demo.gif)  
+
 ## 실습환경
 :penguin: **Ubuntu server 22.04.4 LTS**
 :book: **ELK Stack 7.11.1**
@@ -71,6 +74,12 @@ crontab -e
 <br/>
 
 ## :hammer: 트러블슈팅
+
+### filebeat.yml 권한 수정
+```chmod go-w ./filebeat.yml```
+
+---
+
 ### path 경로를 호스트 경로로 설정했더니 인식을 못해서
 ### 컨테이너 내부 경로로 설정해 해결
 
