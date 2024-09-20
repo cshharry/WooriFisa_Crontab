@@ -4,17 +4,14 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
     ports:
       - "9200:9200"
-    volumes:
-      - es-data:/usr/share/elasticsearch/data
 
   logstash:
     image: docker.elastic.co/logstash/logstash:7.11.1
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-      - ./fake_data.csv:/app
     ports:
       - "5044:5044"
     depends_on:
@@ -36,6 +33,3 @@ services:
       - ./fake_data.csv:/usr/share/filebeat/data/fake_data.csv
     depends_on:
       - logstash
-
-volumes:
-  es-data:

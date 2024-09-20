@@ -5,9 +5,15 @@ filebeat.inputs:
     - /usr/share/filebeat/data/fake_data.csv  # 컨테이너 내부 경로
   multiline:
     pattern: '^\s'
+    negate: false
     match: after
   fields:
     type: csv
+  scan_frequency: 1s         # 1초마다 파일을 확인
+  close_inactive: 10m        # 10분 동안 비활성화 상태면 파일을 닫음
+  clean_inactive: 1h         # 1시간 동안 비활성화 상태면 파일 상태를 제거
+  ignore_older: 30m
 
 output.logstash:
   hosts: ["logstash:5044"]
+
