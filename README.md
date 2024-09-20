@@ -60,6 +60,7 @@ crontab -e
 ```        
 ## :bar_chart: 시각화
 <p align="center">
+  
   ![image](https://github.com/user-attachments/assets/b9c9411e-b002-4944-a4f2-9845d4300526)
 
 </p>
