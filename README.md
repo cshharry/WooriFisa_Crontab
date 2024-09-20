@@ -71,8 +71,16 @@ crontab -e
 <br/>
 
 ## :hammer: 트러블슈팅
-### 1
+### path 경로를 호스트 경로로 설정했더니 인식을 못해서
+### 컨테이너 내부 경로로 설정해 해결
 
+![image](https://github.com/user-attachments/assets/48ef3204-aade-48a1-b021-8e5f41dde292)
+
+
+```
+paths:
+    - /usr/share/filebeat/data/fake_data.csv
+```
 
 <br/>
 
